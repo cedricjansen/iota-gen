@@ -1,0 +1,20 @@
+{
+  "name": "iota-gen",
+  "version": "1.0.0",
+  "description": "Generates a IOTA Chrysalis conform seed.",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Cedric Jansen",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.6"
+  },
+  "dependencies": {
+    "@iota/client": "^0.3.2",
+    "git": "^0.1.5"
+  }
+}

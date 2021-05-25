@@ -1,0 +1,64 @@
+@font-face {
+    font-family: metropolis-regular;
+    src: url('../assets/font/Metropolis-Regular.otf');
+  }
+  
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: #F6F8FC;
+    color: #131F37;
+
+    font-family: metropolis-regular;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.title-container {  
+    color: 131F37;
+}
+
+.seed-container {
+    padding: 5px 10px;
+
+    border-radius: 10px;
+    background-color: #131F37;
+    color: #F6F8FC;
+
+    font-size: small;
+}
+
+.generate-container {
+    margin-top: 10px;
+    padding: 5px 10px;
+
+    border-radius: 20px;
+
+    background-color: #0FC1B7;
+    color: #F6F8FC;
+
+    font-size: large;
+}
+
+.generate-container:hover {
+    
+
+    background-color: #00E0CA;
+    cursor: pointer;
+
+    transition: all 0.5s;
+}
